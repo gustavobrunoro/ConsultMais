@@ -1,0 +1,843 @@
+[
+	{
+		"FormularioID": 1,
+		"ClienteIDFK": 1,
+		"Titulo": "Formulario de Teste",
+		"DataInicio": "20200701",
+		"DataFim": "202007030",
+		"Numero": "12345",
+		"Entrevistas": 30,
+		"Ativo": 1,
+		"perguntas": [
+			{
+				"PerguntaID": 1,
+				"Descricao": "1 - QUAL E O SEU SEXO",
+				"perguntaOpcao": [
+									{ "Ordem": 0, "Descricao": "MASCULIMO" },
+									{ "Ordem": 1, "Descricao": "FEMININO" }
+								],
+				"PerguntaTipoIDFK": 7
+			},
+			{
+				"PerguntaID": 2,
+				"Descricao": "2 - QUAL E A SUA DATA DE NASCIMENTO",
+				"PerguntaTipoIDFK": 9
+			},
+			{
+				"PerguntaID": 3,
+				"Descricao": "3 - QUAL E O SEU GRAU DE ESCOLARIDADE",
+				"perguntaOpcao": [
+									{ "Ordem": 0, "Descricao": "ANALFAETO" },
+									{ "Ordem": 1, "Descricao": "FUNDAMENTAL I" },
+									{ "Ordem": 2, "Descricao": "FUNDAMENTAL II" },
+									{ "Ordem": 3, "Descricao": "ENSINO MÉDIO" },
+									{ "Ordem": 4, "Descricao": "UNIVERSITÁRIO" },
+									{ "Ordem": 5, "Descricao": "SUPERIO COMPLETO" }
+								],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 4,
+				"Descricao": "4 - QUAL E A SUA FAIXA DE RENDA",
+				"perguntaOpcao": [
+					{ "Ordem": 0, "Descricao": "MAIS DE 05 SALÁRIOS MÍNIMOS" },
+					{ "Ordem": 1, "Descricao": "DE 03 A 04 SALÁRIOS MÍNIMOS" },
+					{ "Ordem": 2, "Descricao": "DE 02 A 03 SALÁRIOS MÍNIMOS" },
+					{ "Ordem": 3, "Descricao": "DE 01 A 02 SALÁRIOS MÍNIMOS" },
+					{ "Ordem": 4, "Descricao": "DE 1/2 A 01 SALÁRIO MÍNIMO" },
+					{ "Ordem": 5, "Descricao": "BOLSA GOVERNO" },
+					{ "Ordem": 6, "Descricao": "ZERO RENDA" }
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 5,
+				"Descricao": "5 - QUAL O MEIO DE COMUNICAÇÃO QUE O(A) SR(A) USA PARA SE INFORMAR DAS NOTÍCIAS DE IBICARAÍ?",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "NENHUMA DESSAS"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "CARRO DE SOM"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "REDES SOCIAIS"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "TV"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "JORNAL"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "RÁDIO"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 6,
+				"Descricao": "6 - QUAL A RÁDIO QUE O(A) SR(A) MAIS OUVE E CONFIA? (ESPONTÂNEA)",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "NÃO OUVE RÁDIO"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "NÃO TEM PREFERÊNCIA"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "A VOZ DO BRASIL"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "104,9 FM"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "JORNAL ITABUNA"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "IBICARAÍ FM"
+					},
+					{
+						"Ordem": 6,
+						"Descricao": "PALESTINA FM"
+					},
+					{
+						"Ordem": 7,
+						"Descricao": "CACAU FM"
+					}
+				],
+				"PerguntaTipoIDFK": 8,
+				"Obrigatoria": true
+			},
+			{
+				"PerguntaID": 7,
+				"Descricao": "7 - QUAL A REDE SOCIAL, QUE O(A) SR(A) MAIS ACESSA? (CITAR 2)",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "NÃO ACESSO"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "WHATSAPP"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "TWÍTER"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "FACEBOOK"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "INSTAGRAN"
+					}
+				],
+				"PerguntaTipoIDFK": 3 ,
+				"Obrigatoria": true,
+				"MinimoReposta" : 2,
+				"MaximoReposta" : 2
+			},
+			{
+				"PerguntaID": 8,
+				"Descricao": "8 - COM RELAÇÃO À GESTÃO DO EX-PREFEITO LENILTON, O(A) SR(A) DIRIA QUE A GESTÃO DO ATUAL PREFEITO É?",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "É MUITO MELHOR"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "É POUCO MELHOR"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "É IGUAL"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "É MUITO PIOR"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "É EM POUCO PIOR"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 9,
+				"Descricao": "9 - QUANTO A FORMA DO PREFEITO LULA BRANDÃO GERIR A CIDADE",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "APROVA"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "DESAPROVA"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "INDIFERENTE"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 10,
+				"Descricao": "10 - COMO O(A) SR(A) AVALIA A GESTÃO DO PREFEITO LULA BRANDÃO",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "ÓTIMA"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "BOA"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "REGULAR PARA BOA"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "REGULAR PARA RUIM"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "RUIM"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "PÉSSIMA"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 11,
+				"Descricao": "11 - QUAL A AÇÃO PRIORITÁRIA PARA MELHORAR A ÁREA QUE VOCÊ MORA?",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "PAVIMENTAÇÃO"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "LUMINAÇÃO PÚBLICA"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "SEGURANÇA PÚBLICA"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "GERAR EMPREGO"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "SANEAMENTO"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "SAÚDE/REF. HOSPITAL/REMÉDIOS"
+					},
+					{
+						"Ordem": 6,
+						"Descricao": "LIMPEZA PÚBLICA/COLETA"
+					},
+					{
+						"Ordem": 7,
+						"Descricao": "REFORMA DE PRAÇAS"
+					},
+					{
+						"Ordem": 8,
+						"Descricao": "PROGRAMAS PARA JOVENS"
+					},
+					{
+						"Ordem": 9,
+						"Descricao": "EDUCAÇÃO/REF. COLÉGIOS"
+					},
+					{
+						"Ordem": 10,
+						"Descricao": "REFORMA DA FEIRA"
+					},
+					{
+						"Ordem": 11,
+						"Descricao": "NÃO SABE"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 12,
+				"Descricao": "12 - QUAIS OS PONTOS FRACOS DO PREFEITO E DA GESTÃO, QUE PRECISAM MELHORAR? (CITAR 2)",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "LIMPEZA PÚBLICA"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "SANEAMENTO BÁSICO"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "DESORGANIZAÇÃO DA FEIRA"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "NÃO É SOCIAL"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "INFRAESTRUTURA"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "SAÚDE/POSTO MÉDICO"
+					},
+					{
+						"Ordem": 6,
+						"Descricao": "SERVIÇOS BÁSICOS"
+					},
+					{
+						"Ordem": 7,
+						"Descricao": "ADMINISTRAÇÃO EM GERAL"
+					},
+					{
+						"Ordem": 8,
+						"Descricao": "PAVIMENTAÇÃO"
+					},
+					{
+						"Ordem": 9,
+						"Descricao": "IRRESPONSABILIDADE"
+					},
+					{
+						"Ordem": 10,
+						"Descricao": "NÃO GERA EMPREGOS"
+					},
+					{
+						"Ordem": 11,
+						"Descricao": "SEGURANÇA"
+					},
+					{
+						"Ordem": 12,
+						"Descricao": "TUDO"
+					},
+					{
+						"Ordem": 13,
+						"Descricao": "NÃO SABE"
+					}
+				],
+				"PerguntaTipoIDFK": 6
+			},
+			{
+				"PerguntaID": 13,
+				"Descricao": "13 - QUAIS PONTOS POSITIVOS DA GESTÃO E DO PREFEITO QUE O(A) SR(A) DESTACA? (ATÉ 2)",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "PAGA EM DIA"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "SANEAMENTO BÁSICO"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "SERVIÇOS BÁSICOS"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "EDUCAÇÃO"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "POSTO MÉDICO/SAÚDE"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "NENHUM"
+					},
+					{
+						"Ordem": 6,
+						"Descricao": "NÃO SABE"
+					}
+				],
+				"PerguntaTipoIDFK": 6
+			},
+			{
+				"PerguntaID": 14,
+				"Descricao": "14 - EM RELAÇÃO A ADMINISTRAÇÃO MUNICIPAL, QUAL SECRETARIA O(A) SR(A) CONSIDERA MAIS ATUANTE?(ESPONTÂNEA)",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "SAÚDE"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "EDUCAÇÃO"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "FINANÇAS (IVANI)"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "ESPORTE/LAZER"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "ASSISTÊNCIA SOCIAL"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "INFRAESTRUTURA"
+					},
+					{
+						"Ordem": 6,
+						"Descricao": "ALESSANDRA"
+					},
+					{
+						"Ordem": 7,
+						"Descricao": "NENHUMA"
+					},
+					{
+						"Ordem": 8,
+						"Descricao": "NÃO SABE"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 15,
+				"Descricao": "15 - O QUE O(A) SR(A) ACHOU DAS MUDANCAS NA PREFEITURA EM RELACÃO A FINANÇAS?",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "MELHOROU AS FINANÇAS"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "CONTINUA IGUAL"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "PIOROU AS FINANÇAS"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "NÃO TENHO CONHECIMENTO DAS MUDANÇAS"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 16,
+				"Descricao": "16 - CITE DUAS OBRAS OU AÇÕES DESENVOLVIDA PELO PREFEITO QUE O(A) SR(A) MAIS GOSTOU:(ESPONTÂNEA)",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "PAVIMENTAÇÃO"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "CRECHE"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "REFORMA DAS ESCOLAS"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "REFORMA DE AÇOUGUES"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "REFORMA DA PRAÇA"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "REFORMA DO GINÁSIO"
+					},
+					{
+						"Ordem": 6,
+						"Descricao": "REFORMA DA FEIRA"
+					},
+					{
+						"Ordem": 7,
+						"Descricao": "MELHORIA NA SAÚDE"
+					},
+					{
+						"Ordem": 8,
+						"Descricao": "NENHUMA"
+					},
+					{
+						"Ordem": 9,
+						"Descricao": "NÃO SABE"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 17,
+				"Descricao": "17 - DOS VEREADORES ATUAIS, QUAL O(A) SR(A ) MAIS APROVA A ATUAÇÃO E MERECE REELEIÇÃO?(ESPONTÂNEA)",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "PEDRO DA FARINHA"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "MONALIZA"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "MEIRE"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "CLICIA"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "AROLDO/AROLDÃO"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "CEONE/GECEONE"
+					},
+					{
+						"Ordem": 6,
+						"Descricao": "JOÃO"
+					},
+					{
+						"Ordem": 7,
+						"Descricao": "LÉO"
+					},
+					{
+						"Ordem": 8,
+						"Descricao": "LIOR"
+					},
+					{
+						"Ordem": 9,
+						"Descricao": "FLÁVIO"
+					},
+					{
+						"Ordem": 10,
+						"Descricao": "CHICO DO DOCE"
+					},
+					{
+						"Ordem": 11,
+						"Descricao": "ZUZA"
+					},
+					{
+						"Ordem": 12,
+						"Descricao": "NEI"
+					},
+					{
+						"Ordem": 13,
+						"Descricao": "THEO"
+					},
+					{
+						"Ordem": 14,
+						"Descricao": "NENHUM"
+					},
+					{
+						"Ordem": 15,
+						"Descricao": "NÃO SABE"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 18,
+				"Descricao": "18 - DOS VEREADORES ATUAIS, QUAL O(A) SR(A) NÃO VOTARIA DE JEITO NENHUM? (ESPONTÂNEA)",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "PEDRO DA FARINHA"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "MONALIZA"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "MEIRE"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "CLICIA"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "AROLDO/AROLDÃO"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "CEONE/GECEONE"
+					},
+					{
+						"Ordem": 6,
+						"Descricao": "JOÃO"
+					},
+					{
+						"Ordem": 7,
+						"Descricao": "LÉO"
+					},
+					{
+						"Ordem": 8,
+						"Descricao": "LIOR"
+					},
+					{
+						"Ordem": 9,
+						"Descricao": "FLÁVIO"
+					},
+					{
+						"Ordem": 10,
+						"Descricao": "CHICO DO DOCE"
+					},
+					{
+						"Ordem": 11,
+						"Descricao": "ZUZA"
+					},
+					{
+						"Ordem": 12,
+						"Descricao": "NEI"
+					},
+					{
+						"Ordem": 13,
+						"Descricao": "THEO"
+					},
+					{
+						"Ordem": 14,
+						"Descricao": "NENHUM"
+					},
+					{
+						"Ordem": 15,
+						"Descricao": "NÃO SABE"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 19,
+				"Descricao": "19 - SE O PREFEITO LULA BRANDÃO FOR CANDIDATO A REELEIÇÃO, QUAL A SUA ATITUDE:",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "VOTARIA COM CERTEZA"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "DEPENDE DOS DEMAIS CANDIDATO"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "AINDA É CEDO PARA DEFINIR"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "NÃO VOTARIA DE JEITO NENHUM"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 20,
+				"Descricao": "20 - EM QUEM O(A) SR(A) VOTARIA PARA PREFEITO SE AS ELEIÇÕES FOSSEM HOJE? (ESPONTÂNEA)",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "LENILTON"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "MONALIZA"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "NORMAN"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "LULA BRANDÃO"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "ADELSON"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "BORÓ"
+					},
+					{
+						"Ordem": 6,
+						"Descricao": "NENHUM"
+					},
+					{
+						"Ordem": 7,
+						"Descricao": "NÃO SABE"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 21,
+				"Descricao": "21 - E SE OS CANDIDATOS FOSSEM ESSES, EM QUEM O(A) SR(A) VOTARIA? (ESTIMULADA)",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "MONALIZA"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "LULA BRANDÃO"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "LENILDO"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "NORMAN MARTINS"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "ADRIANA ASSIS"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "ADELSON JOGO DO BICHO"
+					},
+					{
+						"Ordem": 6,
+						"Descricao": "NOME NOVO"
+					},
+					{
+						"Ordem": 7,
+						"Descricao": "NENHUM"
+					},
+					{
+						"Ordem": 8,
+						"Descricao": "NÃO SABE"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 22,
+				"Descricao": "22 - DOS NOMES ABAIXO, QUEM O(A) SR(A) NÃO VOTARIA DE JEITO NENHUM? (ESTIMULADA)",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "MONALIZA"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "LULA BRANDÃO"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "LENILDO"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "NORMAN MARTINS"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "ADRIANA ASSIS"
+					},
+					{
+						"Ordem": 5,
+						"Descricao": "ADELSON JOGO DO BICHO"
+					},
+					{
+						"Ordem": 6,
+						"Descricao": "NOME NOVO"
+					},
+					{
+						"Ordem": 7,
+						"Descricao": "NENHUM"
+					},
+					{
+						"Ordem": 8,
+						"Descricao": "NÃO SABE"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			},
+			{
+				"PerguntaID": 23,
+				"Descricao": "23 - E SE OS CANDIDATOS FOSSEM APENAS ESSES, EM QUEM O(A) SR(A) VOTARIA?",
+				"perguntaOpcao": [
+					{
+						"Ordem": 0,
+						"Descricao": "MONALIZA"
+					},
+					{
+						"Ordem": 1,
+						"Descricao": "LULA BRANDÃO"
+					},
+					{
+						"Ordem": 2,
+						"Descricao": "LENILDO"
+					},
+					{
+						"Ordem": 3,
+						"Descricao": "NENHUM"
+					},
+					{
+						"Ordem": 4,
+						"Descricao": "NÃO SABE"
+					}
+				],
+				"PerguntaTipoIDFK": 8
+			}
+//			{
+//				"PerguntaID": 24,
+//				"Descricao": "RATING",
+//				"perguntaOpcao": [
+//					{
+//						"Ordem": 0,
+//						"Descricao": "MONALIZA"
+//					},
+//					{
+//						"Ordem": 1,
+//						"Descricao": "LULA BRANDÃO"
+//					},
+//					{
+//						"Ordem": 2,
+//						"Descricao": "LENILDO"
+//					},
+//					{
+//						"Ordem": 3,
+//						"Descricao": "NENHUM"
+//					},
+//					{
+//						"Ordem": 4,
+//						"Descricao": "NÃO SABE"
+//					}
+//				],
+//				"PerguntaTipoIDFK": 4
+//			}
+		]
+	}
+]

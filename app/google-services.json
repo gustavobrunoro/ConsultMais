@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "615506962164",
+    "firebase_url": "https://consult-mais-c5fb4.firebaseio.com",
+    "project_id": "consult-mais-c5fb4",
+    "storage_bucket": "consult-mais-c5fb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615506962164:android:2a1b8c092437dc68fae0a1",
+        "android_client_info": {
+          "package_name": "com.consultmais.consultmais"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615506962164-radjmdunsp8pvjk81c5tg55ptv502hfa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.consultmais.consultmais",
+            "certificate_hash": "00201a2e10b8a15a184e8161b6fc0cbfada84bff"
+          }
+        },
+        {
+          "client_id": "615506962164-mjnbf37r3daftmfladgq43vfth416b2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB6jm5q2OR7SDp_Arnsr5WSp2u8TTC818"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615506962164-mjnbf37r3daftmfladgq43vfth416b2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

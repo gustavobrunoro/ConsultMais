@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android/HORARIO_ESCOLAR/MINHA_ESCOLA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android/HORARIO_ESCOLAR/RESOLVE_SERVIDOR" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android/MInhaEscola" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android/MInhaEscola/app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android/RESOLVE SERVIDOR" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android/RESOLVE SERVIDORES" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android/RSCheck" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C#/CLR" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C#/ResolveFolha" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Laravel/Servidor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Laravel/backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Laravel/rscheck-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PHP/resolve-consult" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="primaryColor">#13d5d5</color>-->
+<!--    <color name="primaryLightColor">#6affff</color>-->
+<!--    <color name="primaryDarkColor">#00a3a4</color>-->
+<!--    <color name="secondaryColor">#29b6f6</color>-->
+<!--    <color name="secondaryLightColor">#73e8ff</color>-->
+<!--    <color name="secondaryDarkColor">#0086c3</color>-->
+<!--    <color name="primaryTextColor">#000000</color>-->
+<!--    <color name="secondaryTextColor">#000000</color>-->
+
+    <color name="primaryColor">#b0bec5</color>
+    <color name="primaryLightColor">#e2f1f8</color>
+    <color name="primaryDarkColor">#808e95</color>
+    <color name="secondaryColor">#c8e6c9</color>
+    <color name="secondaryLightColor">#fbfffc</color>
+    <color name="secondaryDarkColor">#97b498</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+
+    <color name="cardview">#B0E0E6</color>
+    <color name="Fundo">#80deea</color>
+
+    <!-- Botões -->
+    <color name="BOTOES">#609DA3</color>
+
+    <!-- Azul Resolve -->
+    <color name="AZUL_RESOLVE">#7a7aff</color>
+    <color name="NOVO_FORMULARIO">#adadff</color>
+    <color name="EXPORTA_FORMULARIO">#0ed2b9</color>
+    <color name="TOTAL_ENTREVISTA">#dce775</color>
+    <color name="TOTAL_FORMULARIO">#bd6771</color>
+
+    <color name="Table_Header_Background">#dcdcdc</color>
+    <color name="Table_Header_TextColor">#000000</color>
+    <color name="disable">#ffffff</color>
+    <color name="qntdConcluida">#81c784</color>
+
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">AppData</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+
+    <string name="validacao_erro">Necessário Preencher</string>
+
+    <string name="aviso_Login_Email">Por favor informe um email.</string>
+    <string name="aviso_Login_Senha">Por favor informe uma senha.</string>
+    <string name="aviso_Login_Entrevistador_nao_Encontrado">Não foi possível verificar entrevistador.</string>
+    <string name="aviso_Login_Usuario_Senha_Incorreto">Usuário ou Senha Incorreto!</string>
+    <string name="aviso_Login_Termo_Erro">"Não é possível atualizar o Termo de Responsabilidade: "</string>
+
+    <string name="title_entrevistador">ENTREVISTADOR: %s</string>
+    <string name="title_Formulario"> Formulário Nº %s</string>
+    <string name="aviso_Main_Download_Formulario">Efetuando Download Formulário</string>
+    <string name="aviso_Main_Sem_Formulaios">Não existe formulário para download</string>
+    <string name="aviso_Main_Erro_Download_Formulario">"Não foi possível efetuar Download do Formulário: "</string>
+
+    <string name="aviso_Main_Periodo_Finalizado">Período Finalizado</string>
+    <string name="aviso_Main_Periodo_Data_Limite">"Atenção a data limite para conclusão deste formulario foi em: %s"</string>
+
+    <string name="aviso_Main_Novo_Formulario">Verificando Novo Formulário</string>
+    <string name="aviso_Main_Novo_Formulario_Sucesso">Efetuado download de novo formulário com Sucesso!</string>
+    <string name="aviso_Main_Novo_Formulario_Não_Existe">Não existe novo formulario para download!</string>
+    <string name="aviso_Main_Novo_Formulario_Erro_Conexao">\"Não foi Possível Verificar: \"</string>
+
+    <string name="aviso_Pre_Formulario">"Formulario %s"</string>
+    <string name="aviso_Pre_Informe_Bairro">"Informe o Bairro da Pesquisa Atual (Entrevistador)"</string>
+    <string name="aviso_Pre_Campo_Obrigatorios">Existem campos obrigatórios a serem preenchidos!</string>
+
+    <string name="aviso_Formulaio_Alerta">Alerta</string>
+    <string name="aviso_Formulaio_Finaliza">FINALIZAR ENTREVISTA</string>
+    <string name="aviso_Formulario_Exportando">Exportando</string>
+    <string name="aviso_Formulario_Validacao">Validação</string>
+    <string name="aviso_Formulario_Sucesso">Exportacão da Entrevista realizado com sucesso!</string>
+    <string name="aviso_Formulario_Salvo_Exportacao">Entrevista salva para exportação</string>
+
+    <string name="aviso_Exportacao">"Existem %s formularios a serem exportados"</string>
+    <string name="aviso_Formulario_Exportacao">Exportação Formulario</string>
+    <string name="aviso_Formulario_Exportacao_Mensagem">Confirmar a exportação dos formulários</string>
+
+    <string name="aviso_Exportacao_Erro_Conexao">\"Não foi possível efetuar exportação, Verifique a conexão: \"</string>
+    <string name="aviso_Exportacao_Sucesso">Exportação</string>
+    <string name="aviso_Exportacao_Sucesso_Mensagem">Exportação realizada com Sucesso!</string>
+
+</resources>

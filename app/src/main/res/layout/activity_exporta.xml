@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondaryLightColor"
+    tools:context=".Activity.ExportaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        custom:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_Titulo"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Existem 100 formularios a serem exportados"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pb_Percentual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <com.budiyev.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/pb_Percentual"
+        android:layout_width="260dp"
+        android:layout_height="225dp"
+        app:animateProgress="true"
+        app:backgroundStrokeColor="#ff3f51b5"
+        app:backgroundStrokeWidth="2dp"
+        app:drawBackgroundStroke="false"
+        app:foregroundStrokeCap="butt"
+        app:foregroundStrokeColor="#ff3f51b5"
+        app:foregroundStrokeWidth="10dp"
+        app:indeterminate="false"
+        app:indeterminateMinimumAngle="45"
+        app:indeterminateRotationAnimationDuration="1200"
+        app:indeterminateSweepAnimationDuration="600"
+        app:layout_constraintBottom_toTopOf="@+id/bt_Exportar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Titulo"
+        app:maximum="100"
+        app:progress="0"
+        app:progressAnimationDuration="100"
+        app:startAngle="270" />
+
+    <TextView
+        android:id="@+id/tv_Percentual"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/pb_Percentual"
+        app:layout_constraintEnd_toEndOf="@+id/pb_Percentual"
+        app:layout_constraintStart_toStartOf="@+id/pb_Percentual"
+        app:layout_constraintTop_toTopOf="@+id/pb_Percentual" />
+
+    <Button
+        android:id="@+id/bt_Exportar"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:text="Exportar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/primaryDarkColor"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/pb_Percentual"
+        android:onClick="confirmaExportacao"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

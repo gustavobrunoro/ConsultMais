@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tv_CodID"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cod"
+        android:textSize="@dimen/text_table" />
+
+    <TextView
+        android:id="@+id/tv_DescricaoOpcaoID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Descrição Opção"
+        app:autoSizeTextType="uniform"
+        android:textSize="@dimen/text_table"/>
+
+    <TextView
+        android:id="@+id/tv_QuantidadeID"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Qntd"
+        android:textSize="@dimen/text_table"/>
+
+    <TextView
+        android:id="@+id/tv_Opcao_0"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="M"
+        android:textSize="@dimen/text_table"/>
+
+    <TextView
+        android:id="@+id/tv_Opcao_1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="F"
+        android:textSize="@dimen/text_table"/>
+
+</TableRow>

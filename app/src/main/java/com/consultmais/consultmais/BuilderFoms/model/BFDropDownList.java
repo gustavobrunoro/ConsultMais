@@ -1,0 +1,68 @@
+package com.consultmais.consultmais.BuilderFoms.model;
+
+import com.consultmais.consultmais.BuilderFoms.utils.Constants;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import java.util.List;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class BFDropDownList extends BFView {
+
+    private int tag;
+
+    @JsonProperty(Constants.JSON_KEY_DESCRIPTION)
+    private String description;
+
+    @JsonProperty(Constants.JSON_KEY_OPTIONS)
+    private List<String> options;
+
+    @JsonIgnore
+    private String selectedOption;
+
+    private boolean obrigatorio;
+
+    public int getTag () {
+        return tag;
+    }
+
+    public void setTag (int tag) {
+        this.tag = tag;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public List<String> getOptions() {
+        return options;
+    }
+
+    public void setOptions(List<String> options) {
+        this.options = options;
+    }
+
+    public String getSelectedOption() {
+        return selectedOption;
+    }
+
+    public void setSelectedOption(String selectedOption) {
+        this.selectedOption = selectedOption;
+    }
+
+    public boolean isObrigatorio () {
+        return obrigatorio;
+    }
+
+    public void setObrigatorio (boolean obrigatorio) {
+        this.obrigatorio = obrigatorio;
+    }
+}
